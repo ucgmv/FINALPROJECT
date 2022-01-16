@@ -6,27 +6,20 @@
 import pandas as pd
 #import openpyxl as op
 a = pd.read_excel(r'2010+Census+Population+By+Zipcode+(ZCTA).xlsx')
-b = pd.read_excel(r"BACM Annex A.xlsx")
-c = pd.read_excel(r"BACM Disposed.xlsx")
-d = pd.read_excel(r"CS Annex A.xlsx")
-e = pd.read_excel(r"CS Disposed.xlsx")
-f = pd.read_excel(r"JPM Annex A(1).xlsx")
-g = pd.read_excel(r"JPM Disposed.xlsx")
-h = pd.read_excel(r"ML Annex A.xlsx")
-i = pd.read_excel(r"ML Disposed.xlsx")
-j = pd.read_excel(r"SBM Annex A.xlsx")
-k = pd.read_excel(r"SBM Disposed.xlsx")
- 
-print('afsd')
-
-#Read excels.
-
-print(j)
+#b = pd.read_excel(r"BACM Annex A.xlsx")
+c = pd.read_excel(r"BACM Disposed.xlsx", skiprows = 1, usecols="B:AK")
+#d = pd.read_excel(r"CS Annex A.xlsx")
+e = pd.read_excel(r"CS Disposed.xlsx", skiprows = 1, usecols="B:AK")
+#f = pd.read_excel(r"JPM Annex A(1).xlsx")
+g = pd.read_excel(r"JPM Disposed.xlsx", skiprows = 1, usecols="B:AK")
+#h = pd.read_excel(r"ML Annex A.xlsx")
+i = pd.read_excel(r"ML Disposed.xlsx", skiprows = 1, usecols="B:AK")
+#j = pd.read_excel(r"SBM Annex A.xlsx")
+k = pd.read_excel(r"SBM Disposed.xlsx", skiprows = 1, usecols="B:AK")
 
 
+#Read excels
 
-
-
-print("Hello")
-
+print(a)
+print(c)
 print("Hello")

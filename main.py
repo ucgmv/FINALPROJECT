@@ -16,6 +16,8 @@ h = pd.read_excel(r"ML Annex A.xlsx")
 i = pd.read_excel(r"ML Disposed.xlsx")
 j = pd.read_excel(r"SBM Annex A.xlsx")
 k = pd.read_excel(r"SBM Disposed.xlsx")
+ 
+print('afsd')
 
 #Read excels.
 
